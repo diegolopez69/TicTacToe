@@ -11,6 +11,8 @@ const Board = ({ squares, onClick, winningLine }) => {
       />
     );
   };
+
+  
   let board = [];
   let col = 1;
   let row = 1;

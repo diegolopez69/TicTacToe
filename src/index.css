@@ -6,7 +6,7 @@
 body {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #1b1b1b;
+  background-color: #763626;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@ body {
 
 .square {
   cursor: pointer;
-  background-color: rgb(40, 40, 40);
+  background-color: #d0d0d0;
   border: 1px solid transparent;
   color: white;
   padding: 10px;
@@ -35,7 +35,7 @@ body {
   font-size: 5rem;
 }
 .square:hover {
-  border: 2px solid #25e69f;
+  border: 2px solid #d0d0d0;
 }
 
 .board {
@@ -47,11 +47,11 @@ body {
 }
 
 .X {
-  color: rgb(35, 217, 151);
+  color: #336B87;
 }
 
 .O {
-  color: #d92e6f;
+  color: #2A3132;
 }
 
 .row {
@@ -74,7 +74,7 @@ li {
 .moves {
   font-family: 'Montserrat', sans-serif;
   border: 1px solid transparent;
-  border-bottom: 2px solid #25e69f;
+  border-bottom: 2px solid #d0d0d0;
   cursor: pointer;
   background-color: transparent;
   color: white;
@@ -95,7 +95,7 @@ li {
 }
 
 .winning-square {
-  background-color: #c2ffe9;
+  background-color: #90AFC5;
 }
 .info {
   display: flex;
@@ -112,7 +112,7 @@ li {
   color: white;
 }
 .btn:hover {
-  border: 1px solid #25e69f;
+  border: 1px solid #d0d0d0;
 }
 
 ::-webkit-scrollbar {
@@ -125,7 +125,7 @@ li {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #25e69f;
+  background: #d0d0d0;
   border-radius: 10px;
 }
 
